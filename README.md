@@ -69,7 +69,7 @@ H_{n}(x)=(-1)^{n} e^{x^2} \frac{\mathrm{d}^{n}}{\mathrm{d} x^{n}} e^{-x^2}
 To use in Observable,
 
 ```javascript
-hermitepoly = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-tools-hermitepoly@umd/browser.js' )
+hermitepoly = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-tools-hermitepoly@v0.2.1-umd/browser.js' )
 ```
 
 To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
@@ -81,7 +81,7 @@ var hermitepoly = require( 'path/to/vendor/umd/math-base-tools-hermitepoly/index
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-tools-hermitepoly@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-tools-hermitepoly@v0.2.1-umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
