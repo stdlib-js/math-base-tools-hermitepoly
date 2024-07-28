@@ -67,13 +67,13 @@ H_{n}(x)=(-1)^{n} e^{x^2} \frac{\mathrm{d}^{n}}{\mathrm{d} x^{n}} e^{-x^2}
 ## Usage
 
 ```javascript
-import hermitepoly from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-tools-hermitepoly@esm/index.mjs';
+import hermitepoly from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-tools-hermitepoly@v0.2.2-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-tools-hermitepoly@esm/index.mjs';
+import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-tools-hermitepoly@v0.2.2-esm/index.mjs';
 ```
 
 #### hermitepoly( n, x )
@@ -135,7 +135,7 @@ var v = polyval( 0.5 );
 <script type="module">
 
 var randu = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu');
-import hermitepoly from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-tools-hermitepoly@esm/index.mjs';
+import hermitepoly from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-tools-hermitepoly@v0.2.2-esm/index.mjs';
 
 var x;
 var y;
