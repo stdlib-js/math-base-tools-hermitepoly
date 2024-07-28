@@ -67,13 +67,18 @@ H_{n}(x)=(-1)^{n} e^{x^2} \frac{\mathrm{d}^{n}}{\mathrm{d} x^{n}} e^{-x^2}
 ## Usage
 
 ```javascript
+import hermitepoly from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-tools-hermitepoly@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/math-base-tools-hermitepoly/tags). For example,
+
+```javascript
 import hermitepoly from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-tools-hermitepoly@v0.2.2-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-tools-hermitepoly@v0.2.2-deno/mod.js';
+import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-tools-hermitepoly@deno/mod.js';
 ```
 
 #### hermitepoly( n, x )
@@ -130,7 +135,7 @@ var v = polyval( 0.5 );
 
 ```javascript
 var randu = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu');
-import hermitepoly from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-tools-hermitepoly@v0.2.2-deno/mod.js';
+import hermitepoly from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-tools-hermitepoly@deno/mod.js';
 
 var x;
 var y;
