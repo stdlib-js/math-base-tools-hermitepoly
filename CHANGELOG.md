@@ -4,7 +4,19 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-06-09)
+## Unreleased (2026-07-21)
+
+<section class="issues">
+
+### Closed Issues
+
+This release closes the following issue:
+
+[#12163](https://github.com/stdlib-js/stdlib/issues/12163)
+
+</section>
+
+<!-- /.issues -->
 
 <section class="commits">
 
@@ -12,6 +24,7 @@
 
 <details>
 
+-   [`fab0962`](https://github.com/stdlib-js/stdlib/commit/fab096256a5ce80d8c9324da8b9535e2334629d8) - **chore:** fix JavaScript lint errors [(#13595)](https://github.com/stdlib-js/stdlib/pull/13595) _(by jichenggepeter-dev)_
 -   [`cb58c26`](https://github.com/stdlib-js/stdlib/commit/cb58c2603fec6ec457e3df9de23dea8c3cf51e90) - **docs:** fix TSDoc issues in several `math/base/tools` declarations [(#12464)](https://github.com/stdlib-js/stdlib/pull/12464) _(by Philipp Burckhardt)_
 -   [`39c4de7`](https://github.com/stdlib-js/stdlib/commit/39c4de75a25292c00909cda17a7cb055113e608e) - **bench:** refactor to use string interpolation in `math/base/special` [(#11390)](https://github.com/stdlib-js/stdlib/pull/11390) _(by Karan Anand)_
 
@@ -25,10 +38,11 @@
 
 ### Contributors
 
-A total of 2 people contributed to this release. Thank you to the following contributors:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
 -   Karan Anand
 -   Philipp Burckhardt
+-   jichenggepeter-dev
 
 </section>
 
