@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-07-26)
+## Unreleased (2026-08-25)
 
 <section class="issues">
 
@@ -24,6 +24,7 @@ This release closes the following issue:
 
 <details>
 
+-   [`cbe7813`](https://github.com/stdlib-js/stdlib/commit/cbe7813c0f74bc2ca3c21eb57c5d14f10528652f) - **test:** migrate `math/base/tools/hermitepoly` to ULP-based assertions [(#14613)](https://github.com/stdlib-js/stdlib/pull/14613) _(by Philipp Burckhardt)_
 -   [`fab0962`](https://github.com/stdlib-js/stdlib/commit/fab096256a5ce80d8c9324da8b9535e2334629d8) - **chore:** fix JavaScript lint errors [(#13595)](https://github.com/stdlib-js/stdlib/pull/13595) _(by jichenggepeter-dev)_
 -   [`cb58c26`](https://github.com/stdlib-js/stdlib/commit/cb58c2603fec6ec457e3df9de23dea8c3cf51e90) - **docs:** fix TSDoc issues in several `math/base/tools` declarations [(#12464)](https://github.com/stdlib-js/stdlib/pull/12464) _(by Philipp Burckhardt)_
 -   [`39c4de7`](https://github.com/stdlib-js/stdlib/commit/39c4de75a25292c00909cda17a7cb055113e608e) - **bench:** refactor to use string interpolation in `math/base/special` [(#11390)](https://github.com/stdlib-js/stdlib/pull/11390) _(by Karan Anand)_
